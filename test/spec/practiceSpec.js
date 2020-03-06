@@ -209,7 +209,7 @@ describe('practice.js', function() {
       expect(makeCard).toBeDefined();
     });
     it('should return an object', function() {
-      expect(makeCard()).toEqual(jasmine.any(Object));
+      expect(makeCard('Dec2016', '4111111111111111', '123')).toEqual(jasmine.any(Object));
     });
   });
 
